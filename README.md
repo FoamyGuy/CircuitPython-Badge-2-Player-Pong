@@ -26,3 +26,5 @@ If you are trying to practice programming games with CircuitPython here are a fe
  - Make a list of colors, change the color of the ball each time it collides with a paddle.
  - Change the behavior of ball colliding with paddle in motion to allow for a steeper angle.
 
+# Quick Sample Video of Gameplay:
+[![Youtube Video Link](https://github.com/FoamyGuy/CircuitPython-Badge-Reverse-Pong-Game/blob/master/yt_thumb.png?raw=true)](https://youtu.be/s4phw-bZQbM)

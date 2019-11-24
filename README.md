@@ -23,7 +23,6 @@ If you are trying to practice programming games with CircuitPython here are a fe
  - Manipulate the size of the paddles and/or balls, observe the results. Is the game easier or harder if you make the ball bigger or smaller? Same question for the paddles.
  - Manipulate the speed that the ball moves at by changing how many pixels it moves by during each game update iteration.
  - Manipulate the speed that the paddles move at by changing how many pixels they move during each game update iteration.
- - Allow the player to speed up and slow down the horizontal movement of the ball with the left and right buttons on the d-pad.
  - Make a list of colors, change the color of the ball each time it collides with a paddle.
  - Change the behavior of ball colliding with paddle in motion to allow for a steeper angle.
 

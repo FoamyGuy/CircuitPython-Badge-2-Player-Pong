@@ -116,7 +116,7 @@ class AutoBall:
 
 
 """
-
+Pong paddle controlled manually by two buttons specified as strings passed into the constructor.
 """
 class ManualPaddle:
     def __init__(self, width, height, start_x, start_y, badger, up_btn_str, down_btn_str, debug=False):

@@ -30,16 +30,18 @@ color_palette[0] = 0xFFFFFF
 bg_sprite = displayio.TileGrid(color_bitmap, x=0, y=0, pixel_shader=color_palette)
 splash.append(bg_sprite)
 
-# holde the time we last updated the game state
+# hold the time we last updated the game state
 last_update_time = 0
 
 # create left paddle
+# up_btn = select, down_btn = down
 left_paddle = ManualPaddle(5,30,1,0, badger, "select", "down")
 
 # add it to screen group
 splash.append(left_paddle.rect)
 
 # create right paddle
+# up_btn = start, down_btn = b
 right_paddle = ManualPaddle(5,30,SCREEN_WIDTH-6,SCREEN_HEIGHT-30-6, badger, "start", "b")
 
 # add it to screen group
